@@ -1,0 +1,18 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+auth.json
+credentials.json
+secrets.json
+*.pem
+*.p12
+*.key
+
+# Local dependencies and generated files
+node_modules/
+vendor/
+*.log
+.DS_Store
+Thumbs.db

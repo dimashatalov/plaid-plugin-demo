@@ -1,0 +1,27 @@
+{
+    "name": "scripts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "/src/js/scripts.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.58.3",
+        "sass-loader": "^13.2.0",
+        "webpack": "^5.76.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "dependencies": {
+        "effector": "^22.4.1",
+        "javascript-router": "^0.0.5",
+        "qs": "^6.11.0",
+        "routes-js": "^0.1.8",
+        "swiper": "^9.1.0",
+        "zlib": "^1.0.5"
+    }
+}
